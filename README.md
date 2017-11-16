@@ -1,3 +1,4 @@
+
 ## Node and Angular2
 This project is for learning purpose. 
 
@@ -16,12 +17,12 @@ Before running the backend, first we will run the ng build command and all the f
 
 
 ## Frontend
-- Angular2
-- Angular-material 2
+- Angular4
+- Angular-material 
 - Angular-cli 
 - Angular-flex-layout
 - lodash
-- ng2-chart (chart)
+- ng-chart (chart)
 - Dashboard using Charts
 ![Dashboard](https://github.com/mumarm45/nodeplusangular2/blob/master/view/dashboard.png "Preview Image Dashboard")
 - Task drag drop
@@ -74,4 +75,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
+
+
+# angular4AndNode
 
