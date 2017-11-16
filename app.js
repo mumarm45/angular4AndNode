@@ -31,7 +31,7 @@ app.use('/api', task);
 
 
 http.listen(port, () => {
-    console.log('App server running on ' + port);
+    //console.log('App server running on ' + port);
 })
 
 io.on("connection", socket => {
@@ -39,10 +39,10 @@ io.on("connection", socket => {
 
 
     socket.on('disconnect', function() {
-        console.log('USER DISCONNECTED');
+        // console.log('USER DISCONNECTED');
     });
     socket.on("add-message", message => {
-        console.log(message);
+        // console.log(message);
         socket.broadcast.emit("message", message);
     })
 })
