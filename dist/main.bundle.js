@@ -606,7 +606,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var TaskService = (function () {
     function TaskService(http) {
         this.http = http;
-        this.url = 'http://localhost:3000/api/tasks';
+        this.url = '/api/tasks';
     }
     TaskService.prototype.get = function () {
         return this.http.get(this.url).map(function (response) {
